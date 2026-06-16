@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Store.CoreLayer/Store.CoreLayer.csproj" />
+  <Project Path="Store.Repository/Store.Repository.csproj" />
+  <Project Path="Store.Service/Store.Service.csproj" />
+  <Project Path="Store/Store.csproj" />
+</Solution>
