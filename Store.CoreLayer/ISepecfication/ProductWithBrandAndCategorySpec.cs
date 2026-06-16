@@ -24,8 +24,8 @@ namespace Store.CoreLayer.ISepecfication
                     case Sorting.PriceDesc: 
                         ApplyOrderByDesc(o => o.Price); 
                         break;
-                        case Sorting.NameAsc:
-                        ApplyOrderBy(o => o.Name);
+                        case Sorting.NameDesc:
+                        ApplyOrderByDesc(o => o.Name);
                         break;
                         default :
                         ApplyOrderBy(o => o.Name); 
