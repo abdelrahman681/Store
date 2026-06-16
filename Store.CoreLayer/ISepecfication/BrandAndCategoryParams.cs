@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Store.CoreLayer.ISepecfication
 {
-    public class BrandParams
+    public class BrandAndCategoryParams
     {
         public Sorting? sort { get; set; } 
         public int PageIndex { get; set; } = 1;

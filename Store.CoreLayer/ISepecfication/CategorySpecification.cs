@@ -6,25 +6,25 @@ using System.Text;
 
 namespace Store.CoreLayer.ISepecfication
 {
-    public class BrandSpecification:Specification<ProductBrand>
+    public class CategorySpecification :Specification<ProductCategory>
     {
-        public BrandSpecification(BrandAndCategoryParams brand):base()
+        public CategorySpecification(BrandAndCategoryParams @params) : base()
         {
-            if(brand.sort is not null)
+            if (@params.sort is not null)
             {
-                switch (brand.sort)
+                switch (@params.sort)
                 {
                     case Sorting.NameAsc:
                         ApplyOrderBy(o => o.Name);
                         break;
-                        case Sorting.NameDesc:
+                    case Sorting.NameDesc:
                         ApplyOrderByDesc(o => o.Name);
                         break;
                 }
             }
-            ApplyPagination(brand.PageSize,brand.PageSize*(brand.PageIndex-1));
+            ApplyPagination(@params.PageSize, @params.PageSize * (@params.PageIndex - 1));
         }
-        public BrandSpecification(int brandId) : base(b=>b.Id==brandId)
+        public CategorySpecification(int categoryId) : base(b => b.Id == categoryId)
         {
 
         }

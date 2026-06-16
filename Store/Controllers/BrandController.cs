@@ -28,18 +28,18 @@ namespace Store.Controllers
 
         [HttpGet("GetAllBrand")]
         [ProducesResponseType(typeof(IReadOnlyList<Pagination<ProductBrand>>), StatusCodes.Status200OK)]
-        public async Task<ActionResult<IReadOnlyList<Pagination<ProductBrand>>>> GetAllBrand([FromQuery] BrandParams @params)
+        public async Task<ActionResult<IReadOnlyList<Pagination<ProductBrand>>>> GetAllBrand([FromQuery] BrandAndCategoryParams @params)
         {
             var Spec = new BrandSpecification(@params);
             var brand = await _unitOfWork.Repository<ProductBrand>().GetAllAsyncWithSpecification(Spec);
-            var productPagination = new Pagination<ProductBrand>
+            var brandPagination = new Pagination<ProductBrand>
             {
                 PageIndex = @params.PageIndex,
                 PageSize = @params.PageSize,
                 CountOfAllItem = Spec.CountOfAllItem,
                 Data = brand
             };
-            return Ok(productPagination);
+            return Ok(brandPagination);
         }
         [HttpGet("GetBrandById/{Id}")]
         public async Task<ActionResult<ProductBrand>> GetBrandById(int Id)
