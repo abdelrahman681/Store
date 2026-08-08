@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Store.CoreLayer.Entirty.Enum;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -18,6 +19,7 @@ namespace Store.CoreLayer.ISepecfication
             get { return pageSize; }
             set { pageSize = value > 10 ? 10 : value; }
         }
+        public string? SearchValue { get; set; }
 
     }
 }

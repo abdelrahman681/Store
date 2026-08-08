@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Store.CoreLayer.Entirty.Enum;
+using System;
 using System.Collections.Generic;
 using System.Text;
 

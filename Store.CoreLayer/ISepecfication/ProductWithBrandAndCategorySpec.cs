@@ -1,4 +1,5 @@
 ﻿using Store.CoreLayer.Entirty;
+using Store.CoreLayer.Entirty.Enum;
 using Store.Repository.Specification;
 using System;
 using System.Collections.Generic;
@@ -8,9 +9,12 @@ namespace Store.CoreLayer.ISepecfication
 {
     public class ProductWithBrandAndCategorySpec : Specification<Product>
     {
-        public ProductWithBrandAndCategorySpec(ProductParams product):base
-            (p=>(!product.ProductBrandId.HasValue)||(p.ProductBrandId==product.ProductBrandId)&&
-            (!product.ProductCategoryId.HasValue)||(p.ProductCategoryId==product.ProductCategoryId))
+        public ProductWithBrandAndCategorySpec(ProductParams product) : base(p =>
+        (!product.ProductBrandId.HasValue || p.ProductBrandId == product.ProductBrandId) &&
+        (!product.ProductCategoryId.HasValue || p.ProductCategoryId == product.ProductCategoryId) &&
+        (string.IsNullOrWhiteSpace(product.SearchValue) ||
+         product.SearchValue.Trim().Length < 3 ||
+         p.Name.Contains(product.SearchValue.Trim())))
         {
             Includes.Add(p => p.Brand);
             Includes.Add(p => p.Category);

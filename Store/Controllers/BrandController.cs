@@ -5,6 +5,7 @@ using Store.CoreLayer.Entirty;
 using Store.CoreLayer.ISepecfication;
 using Store.CoreLayer.IUnitOfWork;
 using Store.DTO;
+using Store.Errors;
 using Store.Helpers;
 
 namespace Store.Controllers
@@ -25,7 +26,7 @@ namespace Store.Controllers
             _mapper = mapper;
         }
         #endregion
-
+        [Cache(300)]
         [HttpGet("GetAllBrand")]
         [ProducesResponseType(typeof(IReadOnlyList<Pagination<ProductBrand>>), StatusCodes.Status200OK)]
         public async Task<ActionResult<IReadOnlyList<Pagination<ProductBrand>>>> GetAllBrand([FromQuery] BrandAndCategoryParams @params)
@@ -45,7 +46,7 @@ namespace Store.Controllers
         public async Task<ActionResult<ProductBrand>> GetBrandById(int Id)
         {
             var brand = await _unitOfWork.Repository<ProductBrand>().GetByIdAsync(Id);
-            if (brand is null) return NotFound();
+            if (brand is null) return NotFound(new ErrorApiResponse(404));
             return Ok(brand);
         }
     }

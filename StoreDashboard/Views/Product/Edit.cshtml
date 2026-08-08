@@ -1,0 +1,17 @@
+﻿@model ProductViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1>Edit @Model.Name</h1>
+<div class="container">
+    <form method="post" asp-action="Edit" enctype="multipart/form-data">
+
+        <input asp-for="Id" hidden />
+
+        <partial name="CreateEditPartialView" model="Model" />
+
+        <button asp-action="Edit" asp-controller="Product" class="btn btn-primary">Edit</button>      
+        <a asp-action="Index" class="btn btn-light">Back To List</a>
+    </form>
+</div>
+

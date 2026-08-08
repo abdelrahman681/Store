@@ -14,7 +14,9 @@ namespace Store.CoreLayer.Entirty
         public int? ProductBrandId { get; set; }
         public ProductCategory Category { get; set; }
         public int? ProductCategoryId { get; set; }
-
-
+        public double AverageRating { get; set; }
+        public int ReviewsCount { get; set; }
+        public int StockQuantity { get; set; }
+        public ICollection<Review> Reviews { get; set; } = new List<Review>();
     }
 }

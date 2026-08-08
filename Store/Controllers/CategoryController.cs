@@ -24,7 +24,7 @@ namespace Store.Controllers
             _mapper = mapper;
         }
         #endregion
-
+        [Cache(300)]
         [HttpGet("GetAllCategory")]
         [ProducesResponseType(typeof(IReadOnlyList<Pagination<ProductCategory>>), StatusCodes.Status200OK)]
         public async Task<ActionResult<IReadOnlyList<Pagination<ProductCategory>>>> GetAllCategory([FromQuery] BrandAndCategoryParams @params)

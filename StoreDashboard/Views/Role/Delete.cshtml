@@ -1,0 +1,14 @@
+﻿@using DashBoard.Models
+@model RoleViewModel
+@{
+    ViewData["Title"] = "Delete";
+}
+<form asp-action="Delete" asp-controller="Role">
+<div class="input-group mb-2">
+    <input readonly asp-for="Name" class="form-control" />
+
+</div>
+    <button type="submit" class="btn btn-outline-danger">Delete Role</button>
+
+</form>
+

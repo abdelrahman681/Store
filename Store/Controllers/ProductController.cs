@@ -5,6 +5,7 @@ using Store.CoreLayer.Entirty;
 using Store.CoreLayer.ISepecfication;
 using Store.CoreLayer.IUnitOfWork;
 using Store.DTO;
+using Store.Errors;
 using Store.Helpers;
 
 namespace Store.Controllers
@@ -25,6 +26,7 @@ namespace Store.Controllers
             _mapper = mapper;
         }
         #endregion
+        [Cache(3)]
         [HttpGet("GetAllProduct")]
         [ProducesResponseType(typeof(IReadOnlyList<Pagination<ProductDTO>>),StatusCodes.Status200OK)]
         public async Task<ActionResult<IReadOnlyList<Pagination<ProductDTO>>>> GetAllProduct([FromQuery]ProductParams @params)
@@ -50,7 +52,7 @@ namespace Store.Controllers
             var spec = new ProductWithBrandAndCategorySpec(Id);
             var product = await _unitOfWork.Repository<Product>().GetByIdAsyncWithSpecification(spec);
             var mapeddProduct = _mapper.Map<Product,ProductDTO>(product);
-            if (mapeddProduct is null) return NotFound();
+            if (mapeddProduct is null) return NotFound(new ErrorApiResponse(404));
             return Ok(mapeddProduct);
         }
     }

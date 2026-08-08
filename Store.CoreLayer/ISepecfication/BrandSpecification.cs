@@ -1,4 +1,5 @@
 ﻿using Store.CoreLayer.Entirty;
+using Store.CoreLayer.Entirty.Enum;
 using Store.Repository.Specification;
 using System;
 using System.Collections.Generic;

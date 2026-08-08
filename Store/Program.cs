@@ -1,10 +1,14 @@
-
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
+using QuestPDF.Infrastructure;
 using RepositoryLayer.DataSeeding;
+using StackExchange.Redis;
 using Store.ApplicationServices;
+using Store.Helpers;
+using Store.Middlewares;
 using Store.Repository.StoreContext;
+using Store.Service;
 
 namespace Store
 {
@@ -12,42 +16,10 @@ namespace Store
     {
         public static async Task Main(string[] args)
         {
+            QuestPDF.Settings.License = LicenseType.Community;
             var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen(options =>
-            {
-                options.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Title = "My API",
-                    Version = "v1"
-                });
-                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                {
-                    Name = "Authorization",
-                    Type = SecuritySchemeType.Http,
-                    Scheme = "bearer",
-                    BearerFormat = "JWT",
-                    In = ParameterLocation.Header,
-                    Description = "Enter Bearer Token"
-                });
-                options.AddSecurityRequirement(document => new OpenApiSecurityRequirement
-                {
-                    [new OpenApiSecuritySchemeReference("Bearer", document)] = []
-                });
-            });
-            // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
-
-            builder.Services.AddDbContext<StoreDbContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefulatConnectionString"));
-
-            });
-            builder.Services.ApplyServices();
+            builder.Services.ApplyServices(builder.Configuration);
+            builder.Services.AddIdintityAppService(builder.Configuration);
             var app = builder.Build();
             #region Update DateBase Outo
             using var scope = app.Services.CreateScope();
@@ -72,17 +44,25 @@ namespace Store
             if (app.Environment.IsDevelopment())
             {
                 //app.MapOpenApi();
+                app.UseMiddleware<ExceptionMiddleware>();
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
 
+            app.UseStaticFiles();
+
+            app.UseStatusCodePagesWithReExecute("/errors/{0}");
+
             app.UseHttpsRedirection();
+            app.UseCors("Angular");
+            app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
-
             app.MapControllers();
-
+            app.MapHub<NotificationHub>("/notificationHub");
             app.Run();
         }
     }

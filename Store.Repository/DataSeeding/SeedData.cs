@@ -50,19 +50,19 @@ namespace RepositoryLayer.DataSeeding
                     }
                 }
             }
-            //if (!dbContext.Set<DeliveryMethod>().Any())
-            //{
-            //    {
-            //        var deliverymethod = File.ReadAllText("../RepositoryLayer/DataSeeding/Data/delivery.json");
-            //        var deliveryDesrilize = JsonSerializer.Deserialize<List<DeliveryMethod>>(deliverymethod);
-            //        if (deliveryDesrilize?.Count() > 0)
-            //        {
-            //            foreach (var delivery in deliveryDesrilize)
-            //                await dbContext.Set<DeliveryMethod>().AddAsync(delivery);
-            //            await dbContext.SaveChangesAsync();
-            //        }
-            //    }
-            //}
+            if (!dbContext.Set<DeliveryMethod>().Any())
+            {
+                {
+                    var deliverymethod = File.ReadAllText("../Store.Repository/DataSeeding/Data/delivery.json");
+                    var deliveryDesrilize = JsonSerializer.Deserialize<List<DeliveryMethod>>(deliverymethod);
+                    if (deliveryDesrilize?.Count() > 0)
+                    {
+                        foreach (var delivery in deliveryDesrilize)
+                            await dbContext.Set<DeliveryMethod>().AddAsync(delivery);
+                        await dbContext.SaveChangesAsync();
+                    }
+                }
+            }
         }
     }
 }

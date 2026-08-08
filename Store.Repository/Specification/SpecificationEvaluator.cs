@@ -10,7 +10,7 @@ namespace Store.CoreLayer.ISepecfication
         public static IQueryable<T> GetQuery(IQueryable<T> inputQuery,ISpecification<T> spec)
         {
             var query = inputQuery;
-            spec.CountOfAllItem = query.Count();
+            //spec.CountOfAllItem = query.Count();
             if (spec.Filter is not null)
                 query = query.Where(spec.Filter);
             if(spec.OrderBy is not null)

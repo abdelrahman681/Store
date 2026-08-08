@@ -3,4 +3,5 @@
   <Project Path="Store.Repository/Store.Repository.csproj" />
   <Project Path="Store.Service/Store.Service.csproj" />
   <Project Path="Store/Store.csproj" />
+  <Project Path="StoreDashboard/StoreDashboard.csproj" Id="d6266a1b-6570-4393-9b37-03c23cbead4d" />
 </Solution>
