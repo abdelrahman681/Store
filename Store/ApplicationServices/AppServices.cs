@@ -87,7 +87,7 @@ namespace Store.ApplicationServices
 
             Services.AddDbContext<StoreDbContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("DefulatConnectionString"));
+                options.UseNpgsql(configuration.GetConnectionString("DefulatConnectionString"));
 
             });
             Services.AddSingleton<IConnectionMultiplexer>(option =>

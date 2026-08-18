@@ -21,7 +21,7 @@ namespace StoreDashboard
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<StoreDbContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefulatConnectionString"));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefulatConnectionString"));
             });
 
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
