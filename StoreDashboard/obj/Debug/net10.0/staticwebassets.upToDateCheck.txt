@@ -1,0 +1,154 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\imagess\products\1d456a54-0699-4839-8bd6-3cf43e69df85Doaa.jpeg
+wwwroot\imagess\products\93d8966d-7778-4ada-a322-ad3408f4c5f5User.jpg
+wwwroot\imagess\products\boot-ang1.png
+wwwroot\imagess\products\boot-ang2.png
+wwwroot\imagess\products\boot-core1.png
+wwwroot\imagess\products\boot-core2.png
+wwwroot\imagess\products\boot-redis1.png
+wwwroot\imagess\products\e3a4134c-f7c3-4672-b972-66a5d46fd2bfperson-playing-3d-video-games-device.jpg
+wwwroot\imagess\products\edca2573-f619-41d4-af01-9188199fd991000000000000000.png
+wwwroot\imagess\products\glove-code1.png
+wwwroot\imagess\products\glove-code2.png
+wwwroot\imagess\products\glove-react1.png
+wwwroot\imagess\products\glove-react2.png
+wwwroot\imagess\products\hat-core1.png
+wwwroot\imagess\products\hat-react1.png
+wwwroot\imagess\products\hat-react2.png
+wwwroot\imagess\products\sb-ang1.png
+wwwroot\imagess\products\sb-ang2.png
+wwwroot\imagess\products\sb-core1.png
+wwwroot\imagess\products\sb-core2.png
+wwwroot\imagess\products\sb-react1.png
+wwwroot\imagess\products\sb-ts1.png
+wwwroot\css\styles.css
+wwwroot\js\datatables-simple-demo.js
+wwwroot\js\scripts.js
+wwwroot\imagess\products\d55bc4ee-8695-4933-b745-9de3a69a41a0999999.png
+D:\Route C41 net\Store\StoreDashboard\wwwroot\css\site.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\css\styles.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\favicon.ico
+D:\Route C41 net\Store\StoreDashboard\wwwroot\js\datatables-simple-demo.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\js\scripts.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\js\site.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery-validation\LICENSE.md
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery\dist\jquery.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery\dist\jquery.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery\dist\jquery.min.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\Route C41 net\Store\StoreDashboard\wwwroot\lib\jquery\LICENSE.txt
