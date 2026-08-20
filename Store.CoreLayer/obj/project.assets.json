@@ -1634,11 +1634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Route C41 net\\Store\\Store.CoreLayer\\Store.CoreLayer.csproj",
+      "projectUniqueName": "D:\\Store\\Store\\Store.CoreLayer\\Store.CoreLayer.csproj",
       "projectName": "Store.CoreLayer",
-      "projectPath": "D:\\Route C41 net\\Store\\Store.CoreLayer\\Store.CoreLayer.csproj",
+      "projectPath": "D:\\Store\\Store\\Store.CoreLayer\\Store.CoreLayer.csproj",
       "packagesPath": "C:\\Users\\Abdulrahman Salah\\.nuget\\packages\\",
-      "outputPath": "D:\\Route C41 net\\Store\\Store.CoreLayer\\obj\\",
+      "outputPath": "D:\\Store\\Store\\Store.CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
