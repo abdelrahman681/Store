@@ -49,7 +49,7 @@ namespace Store.Service
                 audience: _configuration["JWT:Audience"],
                 claims: authClaim,
                 signingCredentials: creds,
-                expires: DateTime.Now.AddDays(double.Parse(_configuration["JWT:DurationInDays"]))
+                expires: DateTime.Now.AddMinutes(double.Parse(_configuration["JWT:DurationInDays"]))
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
