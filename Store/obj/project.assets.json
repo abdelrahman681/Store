@@ -4192,11 +4192,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Route C41 net\\Store\\Store\\Store.csproj",
+      "projectUniqueName": "D:\\Store\\Store\\Store\\Store.csproj",
       "projectName": "Store",
-      "projectPath": "D:\\Route C41 net\\Store\\Store\\Store.csproj",
+      "projectPath": "D:\\Store\\Store\\Store\\Store.csproj",
       "packagesPath": "C:\\Users\\Abdulrahman Salah\\.nuget\\packages\\",
-      "outputPath": "D:\\Route C41 net\\Store\\Store\\obj\\",
+      "outputPath": "D:\\Store\\Store\\Store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4219,11 +4219,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Route C41 net\\Store\\Store.Repository\\Store.Repository.csproj": {
-              "projectPath": "D:\\Route C41 net\\Store\\Store.Repository\\Store.Repository.csproj"
+            "D:\\Store\\Store\\Store.Repository\\Store.Repository.csproj": {
+              "projectPath": "D:\\Store\\Store\\Store.Repository\\Store.Repository.csproj"
             },
-            "D:\\Route C41 net\\Store\\Store.Service\\Store.Service.csproj": {
-              "projectPath": "D:\\Route C41 net\\Store\\Store.Service\\Store.Service.csproj"
+            "D:\\Store\\Store\\Store.Service\\Store.Service.csproj": {
+              "projectPath": "D:\\Store\\Store\\Store.Service\\Store.Service.csproj"
             }
           }
         }
