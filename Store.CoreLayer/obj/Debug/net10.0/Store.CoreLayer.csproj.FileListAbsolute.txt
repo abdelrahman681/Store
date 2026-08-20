@@ -1,0 +1,13 @@
+D:\Route C41 net\Store\Store.CoreLayer\bin\Debug\net10.0\Store.CoreLayer.deps.json
+D:\Route C41 net\Store\Store.CoreLayer\bin\Debug\net10.0\Store.CoreLayer.dll
+D:\Route C41 net\Store\Store.CoreLayer\bin\Debug\net10.0\Store.CoreLayer.pdb
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.AssemblyInfoInputs.cache
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.AssemblyInfo.cs
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.csproj.CoreCompileInputs.cache
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.dll
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\refint\Store.CoreLayer.dll
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.pdb
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\ref\Store.CoreLayer.dll
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.sourcelink.json
+D:\Route C41 net\Store\Store.CoreLayer\obj\Debug\net10.0\Store.CoreLayer.csproj.AssemblyReference.cache
